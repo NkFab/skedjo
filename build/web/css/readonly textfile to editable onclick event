@@ -1,0 +1,15 @@
+readonly textfile to editable onclick event 
+<input type="text" name="" value="" readonly="readonly"/><br/>
+<input type="submit" name="" value="update" onclick="" />
+
+$('input[type=submit]').click(function () {
+  $('input[type=text]').removeAttr('readonly');
+})
+
+
+* validations for checking if the passwords are matching (confirm password)
+
+* Sorting using department or by any other criteria set, JSP (Response: select * ....ORDER BY asc or desc)
+
+
+
